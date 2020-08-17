@@ -17,7 +17,10 @@
 
 ## 使用框架
 - [XGBoost](https://xgboost.readthedocs.io/en/latest/)
-- XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
+- XGBoost是经过优化的分布式梯度提升库，高效、灵活且可移植。它在Gradient Boosting框架下实现了机器学习算法。 
+- XGBoost提供了并行树增强（也称为GBDT，GBM），可以快速准确地解决许多数据科学问题。 
+- 相同的代码在主要的分布式环境（Hadoop，SGE，MPI）上运行，并且可以解决数十亿个示例以外的问题。
+
 ## Installation
 ``` pip install xgboost matplotlib pandas numpy seaborn ```
 
